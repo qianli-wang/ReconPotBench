@@ -33,7 +33,7 @@ Each entry is a JSON object with a `conversations` array containing 3 rounds of 
 
 ## Citation 📝
 EACL 2027 (Findings) · Accepted
-
+```
 @misc{wang2026reconpotbenchevaluatingllmhoneypots,
       title={ReconPotBench: Evaluating LLM Honeypots in Multi-Round Linux Reconnaissance}, 
       author={Qianli Wang and Junchao Wu and Binkai Ou and Lidia S. Chao and Derek F. Wong},
@@ -43,7 +43,7 @@ EACL 2027 (Findings) · Accepted
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2611.20528}, 
 }
-
+```
 ## License ⚖️
 
 The dataset is released for research purposes.
