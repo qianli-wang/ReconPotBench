@@ -12,7 +12,7 @@ Reconnaissance is the critical first phase of the cyber attack lifecycle, formin
 
 The full dataset comprises **1,032 three-round interaction test cases** across **8 reconnaissance command families**, following a Network → Software → Hardware hierarchy.
 
-**📌 Partial Release:** This repository currently provides **15% of each reconnaissance category's three-round command-output interaction pairs** (in `data/dataset.json`) for reference. The paper is under review 🔒; the complete dataset will be publicly released upon acceptance.
+**📌 Partial Release:** This repository currently provides **15% of each reconnaissance category's three-round command-output interaction pairs** (in `data/dataset.json`) for reference. 
 
 ### Data Format 🧬
 
@@ -32,9 +32,18 @@ Each entry is a JSON object with a `conversations` array containing 3 rounds of 
 ```
 
 ## Citation 📝
+EACL 2027 (Findings) · Accepted
 
-A complete citation will be provided upon publication.
+@misc{wang2026reconpotbenchevaluatingllmhoneypots,
+      title={ReconPotBench: Evaluating LLM Honeypots in Multi-Round Linux Reconnaissance}, 
+      author={Qianli Wang and Junchao Wu and Binkai Ou and Lidia S. Chao and Derek F. Wong},
+      year={2026},
+      eprint={2611.20528},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2611.20528}, 
+}
 
 ## License ⚖️
 
-The dataset is released for research purposes. Full license terms will accompany the complete dataset release.
+The dataset is released for research purposes.
